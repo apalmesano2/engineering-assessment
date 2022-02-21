@@ -1,0 +1,9 @@
+.food-trucks-overlay {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    padding: 5px;
+    font-size: 8pt;
+    height: auto;
+    width: auto;
+}
