@@ -1,5 +1,24 @@
-# Getting Started with Create React App
+# This project is done as an engineering assessment for Estee Lauder Companies by Andrew Palmesano
 
+# Getting Started:
+
+1. Make sure you have Node 14+ and npm installed.
+
+2. Clone the repo with: `git clone https://github.com/apalmesano2/engineering-assessment.git`
+
+3. Run `npm install` in the project root to install the project dependencies
+
+4. Run `npm start` to serve the project to http://localhost:3000
+
+---
+
+## **Note: As of now, unit tests are not working. There is something wrong in the configuration that is causing issues with one of the project dependencies. I have spent a good amount of time trying to find the fix, and feel I am close but did not want to spend too much time on this so as to delay returning it.**
+
+---
+
+See below for more scripts provided by Create React App
+
+## Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
