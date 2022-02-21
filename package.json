@@ -42,5 +42,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.16.7"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "/node_modules/(?!(ol|labelgun|mapbox-to-ol-style|ol-mapbox-style)/).*/"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "env-setup.js"
+    ]
   }
 }

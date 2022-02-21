@@ -6,7 +6,7 @@ import foodTruckIcon from "../assets/food-truck-svgrepo-com.svg";
 import foodCartIcon from "../assets/food-truck-svgrepo-com.svg"
 import '../styles/food-trucks.css'
 
-const generateTruckFeatures = (): JSX.Element[] => {
+export const generateTruckFeatures = (): JSX.Element[] => {
     const truckPoints: JSX.Element[] = [];
     TRUCK_DATA.features.forEach(feature => {
         const icon = feature.properties.FacilityType === 'Push Cart' ? foodCartIcon : foodTruckIcon;
